@@ -1,12 +1,4 @@
-@media (max-width: 768px) 
-{
-  main {
-    grid-template-columns: 1fr;
-  }
-}
-
-*, ::before, ::after 
-{
+*, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -60,8 +52,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop 
-{
+::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -563,28 +554,8 @@ video {
   display: none;
 }
 
-.grid 
-{
-  display: grid;
-}
-
-.grid-cols-3 
-{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.gap-4 
-{
-  gap: 1rem;
-}
-
-.bg-blue-200 
-{
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
-}
-
-.p-4 
-{
-  padding: 1rem;
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
 }
