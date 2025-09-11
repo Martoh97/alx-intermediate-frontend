@@ -1,0 +1,7 @@
+// Define the primary color variable
+$primary-color: #3D3D3D;
+
+// Apply the color to body and p tags
+body, p {
+  color: $primary-color;
+}
