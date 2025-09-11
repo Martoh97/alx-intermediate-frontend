@@ -1,0 +1,6 @@
+STEPS I TOOK TO INSTALL SASS IN MY PROJECT.
+
+I logged into my vs code editor.
+Then i openend my terminal.
+I typed this prompt "npm install -g sass"
+The above command installs sass globally so you can use the sass command from any directory.
